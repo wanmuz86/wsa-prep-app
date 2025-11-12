@@ -1,0 +1,52 @@
+name: go_skiing
+description: A Flutter skiing game app
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State management
+  provider: ^6.1.1
+  
+  # Sensors
+  sensors_plus: ^4.0.2
+  
+  # Audio
+  audioplayers: ^5.2.1
+  
+  # Storage
+  shared_preferences: ^2.2.2
+  
+  # Vibration
+  vibration: ^1.8.4
+  
+  # Permissions
+  permission_handler: ^11.1.0
+  
+  # Path utilities
+  path_provider: ^2.1.1
+  
+  # Image encoding for recording
+  image: ^4.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/icons/
+    - assets/images/
+    - assets/audio/
+
+  # App icon
+  # Note: For production, generate proper launcher icons from assets/icons/go_skiing.png
+
