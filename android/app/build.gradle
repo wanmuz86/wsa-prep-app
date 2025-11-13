@@ -42,7 +42,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.go_skiing"
-        minSdkVersion 21
+        minSdkVersion flutter.minSdkVersion
         targetSdkVersion flutter.targetSdkVersion
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName

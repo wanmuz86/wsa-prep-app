@@ -23,7 +23,7 @@ dependencies:
   shared_preferences: ^2.2.2
   
   # Vibration
-  vibration: ^1.8.4
+  vibration: ^3.0.0
   
   # Permissions
   permission_handler: ^11.1.0
@@ -50,3 +50,5 @@ flutter:
   # App icon
   # Note: For production, generate proper launcher icons from assets/icons/go_skiing.png
 
+dependency_overrides:
+  win32: ^5.8.0
